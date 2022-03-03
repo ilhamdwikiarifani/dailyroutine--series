@@ -635,6 +635,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
