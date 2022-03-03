@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dailyroutine -- Homepage.</title>
+    <link rel="stylesheet" href="./public/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-ptsans bg-slate-200 dark:bg-gray-900 box-border">
+    <nav
+      class="fixed top-0 right-0 left-0 w-full h-16 flex items-center z-50 bg-slate-200 dark:bg-gray-900"
+    >
+      <div
+        class="container mx-auto px-5 md:px-0 flex justify-between md:justify-around items-center"
+      >
+        <div class="flex items-center gap-6">
+          <div>
+            <h2
+              class="text-xl text-slate-800 dark:text-white font-Poppins font-extrabold"
+            >
+              daily<span class="text-blue-600 dark:text-blue-600"
+                >routine.</span
+              >
+            </h2>
+          </div>
+          <div class="hidden md:flex">
+            <ul class="flex gap-3 font-light dark:text-white">
+              <li>
+                <a href="#work" class="hover:border-b-2 border-blue-600"
+                  >Work</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="hover:border-b-2 border-blue-600"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="hover:border-b-2 border-blue-600"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hidden md:flex">
+          <button id="toogle">
+            <p
+              class="text-xs py-1.5 px-2 rounded-md text-white bg-slate-800 dark:bg-white dark:text-black"
+            >
+              ☀️
+            </p>
+          </button>
+        </div>
+        <div class="flex gap-4 items-center md:hidden">
+          <button id="toogle1">
+            <p
+              class="text-xs py-1.5 px-2 rounded-md text-white bg-slate-800 dark:bg-white dark:text-black"
+            >
+              ☀️
+            </p>
+          </button>
+          <button class="group">
+            <div class="h-1 w-6 bg-black mb-1 dark:bg-white"></div>
+            <div class="h-1 w-6 bg-black mb-1 dark:bg-white"></div>
+            <div class="h-1 w-6 bg-black dark:bg-white"></div>
+            <div
+              class="absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300"
+            >
+              <ul
+                class="flex-col items-start w-full text-base cursor-pointer pt-10"
+              >
+                <li class="hover:bg-blue-600 hover:text-white py-4 px-6 w-full">
+                  <a href="#work">Work</a>
+                </li>
+                <li class="hover:bg-blue-600 hover:text-white py-4 px-6 w-full">
+                  <a href="#about">About</a>
+                </li>
+                <li class="hover:bg-blue-600 hover:text-white py-4 px-6 w-full">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+
+    <section
+      class="container w-full mx-auto z-40 mt-24 dark:text-white px-5 md:w-4/6 lg:px-2 lg:w-7/12"
+    >
+      <div class="md:flex">
+        <div>
+          <h1
+            class="mt-4 lg:w-full lg:text-5xl md:mt-2 md:mb-3 md:text-3xl sm:text-3xl font-Poppins font-extrabold text-5xl"
+          >
+            Source of <span class="text-blue-600">daily</span> wellbeing.
+          </h1>
+          <p class="lg:w-5/6 font-medium mt-5">
+            dailyroutine adalah pekerjaan mengembangkan dan mendesain web
+            application disaat tidak ada tugas, yang bertujuan untuk melatih
+            skill codding. udah itu aja ?
+          </p>
+
+          <div class="flex justify-start items-center">
+            <button
+              class="px-7 py-2.5 bg-blue-600 rounded-tl-xl rounded-br-xl text-white text-xs mt-5 hover:bg-blue-500 font-bold tracking-wider"
+            >
+              Started
+            </button>
+
+            <ul class="flex justify-start items-center mt-5 ml-5 gap-2">
+              <li class="hover:scale-125 transition-all duration-300">
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+                    class="w-7"
+                /></a>
+              </li>
+              <li class="hover:scale-125 transition-all duration-300">
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+                    class="w-7"
+                /></a>
+              </li>
+              <li class="hover:scale-125 transition-all duration-300">
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/fluency/48/000000/github.png"
+                    class="w-7"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img src="../images/hero--1.png" class="mt-7" />
+        </div>
+      </div>
+    </section>
+
+    <div id="work"></div>
+    <!------------------------- work -------------------------->
+
+    <div class="w-full h-auto mb-10 mt-16 dark:bg-gray-800 bg-slate-300">
+      <div class="mx-auto flex justify-center items-center">
+        <div class="block">
+          <div>
+            <h1
+              class="mt-10 text-5xl font-extrabold font-Poppins dark:text-slate-200 text-center mb-5"
+            >
+              work
+            </h1>
+          </div>
+          <div
+            class="mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 mb-10"
+          >
+            <div
+              class="w-11/12 md:w-96 mx-auto h-64 rounded-xl bg-slate-200 dark:bg-gray-700 p-6 relative"
+            >
+              <div class="flex items-center mb-3">
+                <div>
+                  <p
+                    class="px-3.5 py-2 rounded-xl text-xs font-Poppins font-semibold bg-blue-600 text-white absolute top-2 left-2"
+                  >
+                    1
+                  </p>
+                </div>
+                <h1
+                  class="font-Poppins font-bold dark:text-white text-3xl leading-8 mt-2 ml-1"
+                >
+                  Freelance
+                  <span class="text-blue-600">Graphic Designer</span>
+                </h1>
+              </div>
+              <p class="dark:text-white text-justify ml-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                alias dolor incidunt amet odit inventore eum ullam illo aliquid
+                fuga?
+              </p>
+              <div
+                class="absolute w-full h-10 bottom-0 left-0 bg-blue-200 flex justify-end items-center rounded-b-xl"
+              >
+                <button
+                  class="bg-blue-400 text-xs text-white px-2 py-1 mr-3 rounded-xl"
+                >
+                  👍
+                </button>
+                <button
+                  class="bg-blue-600 text-xs text-white px-4 py-1 mr-3 rounded-xl"
+                >
+                  Review
+                </button>
+              </div>
+            </div>
+
+            <!-- batas -->
+
+            <div
+              class="w-11/12 md:w-96 mx-auto h-64 rounded-xl bg-slate-200 dark:bg-gray-700 p-6 relative"
+            >
+              <div class="flex items-center mb-3">
+                <div>
+                  <p
+                    class="px-3.5 py-2 rounded-xl text-xs font-Poppins font-semibold bg-yellow-500 text-white absolute top-2 left-2"
+                  >
+                    2
+                  </p>
+                </div>
+                <h1
+                  class="font-Poppins font-bold dark:text-white text-3xl leading-8 mt-2 ml-1"
+                >
+                  Junior Fullstack
+                  <span class="text-yellow-500">Web Developer</span>
+                </h1>
+              </div>
+              <p class="dark:text-white text-justify ml-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                alias dolor incidunt amet odit inventore eum ullam illo aliquid
+                fuga?
+              </p>
+              <div
+                class="absolute w-full h-10 bottom-0 left-0 bg-yellow-500 flex justify-end items-center rounded-b-xl"
+              >
+                <button
+                  class="bg-yellow-400 text-xs text-white px-2 py-1 mr-3 rounded-xl"
+                >
+                  👍
+                </button>
+                <button
+                  class="bg-yellow-600 text-xs text-white px-4 py-1 mr-3 rounded-xl"
+                >
+                  Review
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div id="about"></div>
+    <div
+      class="container w-full mx-auto z-40 mt-20 dark:text-white px-5 md:w-4/6 lg:px-2 lg:w-7/12 mb-20"
+    >
+      <div class="block md:flex justify-between items-center">
+        <div class="mb-5">
+          <img src="../images/hero--fp.png" class="mx-auto" />
+        </div>
+        <div class="md:ml-7">
+          <h1 class="font-extrabold text-4xl font-Poppins mb-5">
+            About <span class="text-yellow-500">me</span>
+          </h1>
+          <p class="mb-3 font-extrabold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
+            temporibus
+          </p>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+            perferendis vitae sequi sed inventore sit aliquid earum accusamus ea
+            praesentium consequuntur qui sint, recusandae repudiandae.
+            Exercitationem repudiandae maxime quis optio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact US -->
+    <div id="contact"></div>
+
+    <div
+      class="container flex justify-center items-center w-full mx-auto h-auto mt-28 dark:text-white px-5 md:w-4/6 lg:px-2 lg:w-7/12 mb-20 bg"
+    >
+      <div class="block md:flex">
+        <div>
+          <h1 class="font-extrabold text-4xl font-Poppins mb-5">
+            Contact <span class="text-blue-600">Us</span>
+          </h1>
+          <p class="text-justify w-4/5 mb-4">
+            Mari diskusikan website apa yang anda butuhkan, kami sangat senang
+            jika anda bisa berdiskusi dengan kami.
+          </p>
+          <ul>
+            <li class="flex justify-start items-center mb-3">
+              <p class="ml-4">📍 &nbsp; Tulungagung, Jawa Timur, Indonesia</p>
+            </li>
+            <li class="flex justify-start items-center mb-3">
+              <p class="ml-4">📧 &nbsp; luminerochefort@gmail.com</p>
+            </li>
+            <li class="flex justify-start items-center">
+              <p class="ml-4">✨ &nbsp; akukyrin</p>
+            </li>
+          </ul>
+        </div>
+        <div class="box-border mt-10 md:ml-5 md:mt-0">
+          <form>
+            <div
+              class="block px-4 py-6 rounded-lg bg-slate-300 dark:bg-gray-700 w-11/12 md:w-72 mx-auto"
+            >
+              <input
+                type="text"
+                placeholder="Name"
+                class="w-full h-10 mb-4 rounded-xl text-xs p-2 dark:bg-slate-400 dark:placeholder:text-slate-800 font-medium"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                class="w-full h-10 mb-4 rounded-xl text-xs p-2 dark:bg-slate-400 dark:placeholder:text-slate-800 font-medium"
+              />
+              <textarea
+                cols="30"
+                rows="4"
+                placeholder="Massages"
+                class="mb-4 w-full rounded-xl text-xs resize-none p-2 dark:bg-slate-400 dark:placeholder:text-slate-800 font-medium"
+              ></textarea>
+              <button
+                class="px-12 py-2.5 bg-blue-600 rounded-xl text-white text-xs mt-1 hover:bg-blue-500 font-bold tracking-wider"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="h-24 w-full flex justify-center items-center bg-blue-500">
+      <div>
+        <h1 class="dark:text-white text-white">
+          copyright 2022 &copy; ilhamdwikiarifani
+        </h1>
+      </div>
+    </footer>
+
+    <script src="./public/main.js"></script>
+  </body>
+</html>
